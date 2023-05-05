@@ -1,0 +1,64 @@
+.main_div {
+  z-index: 51;
+  padding-left: auto;
+  background: linear-gradient(
+    152.19deg,
+    rgba(136, 235, 239, 0.9) -0.04%,
+    rgba(83, 91, 230, 0.9) 100%
+  );
+  border-radius: 52px;
+  border: solid;
+  display: block;
+  margin: 15px 0px 0px 100px;
+  width: 400px;
+  height: 540px;
+  left: calc(50% - 712px / 2 - 375px);
+  bottom: 39px;
+}
+
+.main_div.night {
+  background: linear-gradient(152.19deg, rgba(21, 32, 33, 0.9) -0.04%, rgba(83, 91, 230, 0.9) 100%);
+}
+
+.day {
+  padding-left: 21px;
+  margin-top: 37px;
+  color: #ffffff;
+  &_date {
+    margin-top: -2px;
+    padding-left: 21px;
+    color: #ffffff;
+    font-size: 12px;
+    line-height: 0px;
+  }
+}
+
+.icon {
+  width: 20px;
+  height: 30px;
+  margin-top: 10px;
+  padding-left: 21px;
+}
+
+.country {
+  display: flex;
+  margin-top: 20px;
+  &_city {
+    color: #ffffff;
+    padding-left: 8px;
+  }
+}
+
+.forecast_now {
+  margin-top: 1px;
+  &_icon {
+    width: 60px;
+    margin-top: 5px;
+    padding-left: 30px;
+  }
+  &_text {
+    color: rgb(255, 255, 255);
+    padding-left: 21px;
+    font-size: 21px;
+  }
+}

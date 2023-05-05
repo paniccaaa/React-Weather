@@ -1,0 +1,81 @@
+.container {
+  position: absolute;
+  z-index: 50;
+  background: #222831;
+  padding-left: auto;
+  border-radius: 25px;
+  border: solid;
+  display: block;
+  width: 800px;
+  height: 495px;
+  margin: 40px 0px 0px 100px;
+}
+
+.root {
+  position: relative;
+  margin-left: 415px;
+  margin-top: 10px;
+}
+
+input::placeholder {
+  color: white;
+}
+
+.search {
+  height: 30px;
+  width: 330px;
+  background: linear-gradient(90.8deg, rgba(144, 217, 224, 0.9) 0.2%, rgba(84, 96, 230, 0.9) 100%);
+  border-radius: 7px;
+  padding-left: 30px;
+  color: white;
+}
+
+.search.night {
+  background: linear-gradient(152.19deg, rgba(21, 32, 33, 0.9) -0.04%, rgba(83, 91, 230, 0.9) 100%);
+}
+
+.icon {
+  position: absolute;
+  width: 22px;
+  height: 20px;
+  left: 5px;
+  top: 8px;
+}
+
+.clearIcon {
+  width: 18px;
+  height: 18px;
+  opacity: 0.3;
+  position: absolute;
+  right: 15px;
+  top: 8px;
+  left: 340px;
+  cursor: pointer;
+  &:hover {
+    opacity: 0.8;
+  }
+}
+
+.block {
+  padding-top: 20px;
+  &_line {
+    display: flex;
+    padding-left: 10px;
+  }
+  &_text {
+    margin-top: 10px;
+    font-size: 16px;
+    padding-left: 420px;
+    color: white;
+  }
+}
+
+.days_block {
+  display: flex;
+  padding-left: 415px;
+}
+
+.placeholder {
+  height: 195px;
+  background-color: transparent;
+}

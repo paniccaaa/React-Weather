@@ -1,0 +1,49 @@
+.content {
+  background: #333a43;
+  display: block;
+  align-items: center;
+  border-radius: 12px;
+  text-align: center;
+  width: 150px;
+  margin-right: 10px;
+  cursor: pointer;
+  &:hover {
+    opacity: 0.8;
+  }
+  height: 200px;
+  align-items: flex-end;
+  position: relative; /* добавили свойство */
+  bottom: 0; /* добавили свойство */
+  &:active {
+    border: 0.5px solid rgb(196, 196, 196);
+  }
+}
+
+.clicked {
+  border: 0.5px solid rgb(196, 196, 196);
+}
+
+.icon {
+  margin-top: 3px;
+  width: 60px;
+  height: 70px;
+}
+
+.text {
+  padding-top: -51px;
+  bottom: 0;
+  // padding-bottom: 12px;
+  color: white;
+  font-size: 12px;
+  word-wrap: break-word;
+  align-items: flex-end;
+}
+
+.text_footer {
+  position: absolute; /* добавили свойство */
+  bottom: 0; /* добавили свойство */
+  top: 150px;
+  left: 0; /* добавили свойство */
+  right: 0; /* добави */
+  color: white;
+}
